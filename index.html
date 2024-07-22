@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Softwarian_Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body style="background-color:black">
+    <header style="background-color: black; display: flex; justify-content: space-between; align-items: center; padding: 0px 200px;position: fixed; top: 0; left: 0;width:80%; z-index: 999">
+
+        <h1 style="color:orange;  font-style: italic;">Softwarian</h1>
+        <div style="display: flex; justify-content: center; flex-grow: 1;">
+            <img src="img/SEEEE.jpg"  style="max-height: 40px;" />
+        </div>
+        <div style="display: flex;">
+            <a href="https://www.facebook.com/groups/softwarian/?ref=share&mibextid=adzO7l" style="color: orange; font-size: 20px; margin-right: 10px;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/softwarian?igsh=eGpxdTc5MWxqcXRt" style="color: orange; font-size: 20px; margin-right: 10px">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://t.me/SE_JUST_BOT" style="color: orange; font-size: 20px; margin-right: 10px;">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://youtube.com/channel/UCQ12MLtVnWdpxY9O0THe2Fg" style="color: orange; font-size: 20px;">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </header>
+
+    <img src="img/SE.jpg" style="width: 100%;  " />
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <button style="display: block; margin: 0 auto; font-size: 24px; font-weight: bold; color: black; background-color: orange; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" onclick="document.location='img/SE1.jpg'">الخطة التفاعلية</button>
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <hr style="border: 2px solid orange; width: 50%; margin: 20px auto;">
+
+    <div style="color: orange; font-weight: bold; font-size: 24px;text-align:center ">السنة الدراسية الأولى</div>
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+
+    <form style="display: flex; justify-content:space-evenly; align-items: center; ">
+        <div style="background-color: orange; padding: 10px; border-radius: 5px; margin-right: 10px;  border: 2px solid orange;">
+            <select id="dropdown1" style="font-size: 18px; padding: 5px 10px; background-color: orange; color: black; border: none; border-radius: 5px; font-size: 24px">
+                <option value="#">الفصل الدراسي الأول</option>
+                <option value="Y1C.html">مقدمة في البرمجة</option>
+                <option value="Y1I.html">مقدمة الى تكنولوجيا المعلومات</option>
+                <option value="Y1CAL.html">تفاضل وتكامل 1</option>
+            </select>
+        </div>
+
+        <div style="background-color: orange; padding: 10px; border-radius: 5px;  border: 2px solid orange;">
+            <select id="dropdown2" style="font-size: 18px; padding: 5px 10px; background-color: orange; color: black; border: none; border-radius: 5px; font-size: 24px">
+                <option value="#">الفصل الدراسي الثاني</option>
+                <option value="Y1O.html">مقدمة في البرمجة الكينونية</option>
+                <option value="Y1C2.html">تفاضل وتكامل 2</option>
+                <option value="Y1.html">الرياضيات المتقطعه</option>
+            </select>
+        </div>
+    </form>
+    <script>
+        const dropdown1 = document.getElementById('dropdown1');
+        const dropdown2 = document.getElementById('dropdown2');
+
+        dropdown1.addEventListener('change', () => {
+            const selectedOption = dropdown1.value;
+            if (selectedOption !== '#') {
+                window.location.href = selectedOption;
+            }
+        });
+
+        dropdown2.addEventListener('change', () => {
+            const selectedOption = dropdown2.value;
+            if (selectedOption !== '#') {
+                window.location.href = selectedOption;
+            }
+        });
+    </script>
+    <!--///////////////////////////////////////////////////////////////////////////////-->
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <hr style="border: 2px solid orange; width: 50%; margin: 20px auto;">
+    <div style="color: orange; font-weight: bold; font-size: 24px;text-align:center ">السنة الدراسية الثانية</div>
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+
+    <form style="display: flex; justify-content:space-evenly; align-items: center; ">
+        <div style="background-color: orange; padding: 10px; border-radius: 5px; margin-right: 10px; border: 2px solid orange;">
+            <select id="dropdown3" style="font-size: 18px; padding: 5px 10px; background-color: orange; color: black; border: none; border-radius: 5px; font-size: 24px">
+                <option value="#">الفصل الدراسي الأول</option>
+                <option value="Y21.html">تصميم المنطق الرقمي </option>
+                <option value="Y22.html">تراكيب البيانيات</option>
+                <option value="Y23.html"> تصميم صفحات الويب</option>
+                <option value="Y24.html">البرمجة بلغة الجافا</option>
+                <option value="Y25.html">نمذجة البرمجيات</option>
+            </select>
+        </div>
+
+        <div style="background-color: orange; padding: 10px; border-radius: 5px;  border: 2px solid orange;">
+            <select id="dropdown4" style="font-size: 18px; padding: 5px 10px; background-color: orange; color: black; border: none; border-radius: 5px; font-size: 24px">
+                <option value="#">الفصل الدراسي الثاني</option>
+                <option value="Y26.html">تحليل وتصميم الخوازميات</option>
+                <option value="Y27.html">مهارات الاتصال وأخلاقيات المهنة</option>
+                <option value="Y28.html">أساسيات قواعد البيانات</option>
+                <option value="Y29.html">أساسيات هندسة البرمجيات</option>
+                <option value="Y210.html">احصاء واحتمالات لطلبة الحاسوب</option>
+            </select>
+        </div>
+    </form>
+    <script>
+        const dropdown3 = document.getElementById('dropdown3');
+        const dropdown4 = document.getElementById('dropdown4');
+
+        dropdown3.addEventListener('change', () => {
+            const selectedOption = dropdown3.value;
+            if (selectedOption !== '#') {
+                window.location.href = selectedOption;
+            }
+        });
+
+        dropdown4.addEventListener('change', () => {
+            const selectedOption = dropdown4.value;
+            if (selectedOption !== '#') {
+                window.location.href = selectedOption;
+            }
+        });
+    </script>
+    <!--/////////////////////////////////////////////////-->
+
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <hr style="border: 2px solid orange; width: 50%; margin: 20px auto;">
+    <div style="color: orange; font-weight: bold; font-size: 24px;text-align:center ">السنة الدراسية الثالثة</div>
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+
+    <form style="display: flex; justify-content:space-evenly; align-items: center; ">
+        <div style="background-color: orange; padding: 10px; border-radius: 5px; margin-right: 10px; border: 2px solid orange;">
+            <select id="dropdown5" style="font-size: 18px; padding: 5px 10px; background-color: orange; color: black; border: none; border-radius: 5px; font-size: 24px">
+                <option value="#">الفصل الدراسي الأول</option>
+                <option value="Y31.html">تطوير تطبيقات الويب </option>
+                <option value="Y32.html">تراسل بيانات الاعمال</option>
+                <option value="Y33.html"> البرمجة المرئية</option>
+                <option value="Y34.html">تحليل وتصميم الأنظمة</option>
+                <option value="Y35.html">توثيق البرمجيات</option>
+                <option value="Y36.html">تحليل عددي</option>
+            </select>
+        </div>
+
+        <div style="background-color: orange; padding: 10px; border-radius: 5px;  border: 2px solid orange;">
+            <select id="dropdown6" style="font-size: 18px; padding: 5px 10px; background-color: orange; color: black; border: none; border-radius: 5px; font-size: 24px">
+                <option value="#">الفصل الدراسي الثاني</option>
+                <option value="Y37.html">مبادئ تشغيل النظم الحديثة</option>
+                <option value="Y38.html">تفاعل الانسان مع الحاسوب</option>
+                <option value="Y39.html">هندسة متطلبات البرمجيات</option>
+                <option value="Y310.html">معمارية وتصميم البرمجيات</option>
+                <option value="Y311.html">مختبر هندسه البرمجيات</option>
+                <option value="Y312.html">برمجية الخادم/المستفيد</option>
+            </select>
+        </div>
+    </form>
+    <script>
+        const dropdown5 = document.getElementById('dropdown5');
+        const dropdown6 = document.getElementById('dropdown6');
+
+        dropdown5.addEventListener('change', () => {
+            const selectedOption = dropdown5.value;
+            if (selectedOption !== '#') {
+                window.location.href = selectedOption;
+            }
+        });
+
+        dropdown6.addEventListener('change', () => {
+            const selectedOption = dropdown6.value;
+            if (selectedOption !== '#') {
+                window.location.href = selectedOption;
+            }
+        });
+    </script>
+
+    <!--/////////////////////////////////////////////////-->
+
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <hr style="border: 2px solid orange; width: 50%; margin: 20px auto;">
+    <div style="color: orange; font-weight: bold; font-size: 24px;text-align:center ">  السنة الدراسية الرابعة</div>
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+
+    <form style="display: flex; justify-content:space-evenly; align-items: center; ">
+        <div style="background-color: orange; padding: 10px; border-radius: 5px; margin-right: 10px; border: 2px solid orange;">
+            <select id="dropdown7" style="font-size: 18px; padding: 5px 10px; background-color: orange; color: black; border: none; border-radius: 5px; font-size: 24px">
+                <option value="#">الفصل الدراسي الأول</option>
+                <option value="Y41.html">فحص البرمجيات </option>
+                <option value="Y42.html">أمن البرمجيات</option>
+
+            </select>
+        </div>
+
+        <div style="background-color: orange; padding: 10px; border-radius: 5px;  border: 2px solid orange;">
+            <select id="dropdown8" style="font-size: 18px; padding: 5px 10px; background-color: orange; color: black; border: none; border-radius: 5px; font-size: 24px">
+                <option value="#">الفصل الدراسي الثاني</option>
+                <option value="Y43.html">هندسة تطبيقات الويب</option>
+                <option value="Y44.html">ادارة المشاريع</option>
+
+            </select>
+        </div>
+    </form>
+    <script>
+        const dropdown7 = document.getElementById('dropdown7');
+        const dropdown8 = document.getElementById('dropdown8');
+
+        dropdown7.addEventListener('change', () => {
+            const selectedOption = dropdown7.value;
+            if (selectedOption !== '#') {
+                window.location.href = selectedOption;
+            }
+        });
+
+        dropdown8.addEventListener('change', () => {
+            const selectedOption = dropdown8.value;
+            if (selectedOption !== '#') {
+                window.location.href = selectedOption;
+            }
+        });
+    </script>
+
+
+    <!--///////////////////////////////////////////////////////////////////////////////-->
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <hr style="border: 2px solid orange; width: 50%; margin: 20px auto;">
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <button style="display: block; margin: 0 auto; font-size: 24px; font-weight: bold; color: black; background-color: orange; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" onclick="document.location='group.html'">قروبات المواد</button>
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+
+
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <hr style="border: 2px solid black; width: 50%; margin: 20px auto;">
+    <div style="color: black; background-color: orange; padding: 20px 200px; ">
+        <div style="text-align: center;font-size:50px">Softwarian Team 2024</div>
+        <h6 style="font-size: 14px;">
+            🔸softwarian team🔸by : Hala Ali Fawwaz
+        </h6>
+    </div>
+
+
+</body>
+</html>
+     
